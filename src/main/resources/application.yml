@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://sitdatabase.c7ou42eg2owg.ap-southeast-2.rds.amazonaws.com:3306/sit_database
+    username: root
+    password: sitappadmin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 7070
+
+# sitdatabase.c7ou42eg2owg.ap-southeast-2.rds.amazonaws.com
+# sitdatabase.c7ou42eg2owg.ap-southeast-2.rds.amazonaws.com
